@@ -61,3 +61,5 @@ git merge <bookmark>/<branch_name> --- combines bookmarks branch into current lo
 git push <alias> <branch_name> -- uploads all local branch commits to github
 
 git pull --- Downloads bookmarks history and incorporates changes
+
+YOU CAN ONLY PUSH THE CHANGES ONCE YOU CREATE THE REPO IN GITHUB --------------- TYPE GIT PUSH AND ENTER THE DETAILS AS SPECIFIED BY GIT TO PUSH THE REPO TO GITHUB
