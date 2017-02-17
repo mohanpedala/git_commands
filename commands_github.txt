@@ -1,0 +1,10 @@
+
+
+  ############## COMMANDS GITHUB ################
+
+  After creating the file
+
+ 
+  git commit -m "first commit" --- commit the changes 1st
+  git remote add origin URL
+  git push -u origin master
