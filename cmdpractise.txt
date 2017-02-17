@@ -1,0 +1,63 @@
+
+
+	############ GIT COMMANDS ###############
+
+git init -- Initialize a local repo or create a local repo
+git clone url -- cloning the repo from github
+
+git add -- Snapshot of the file for versioning
+
+git commit -am "comments" -- commiting the changes
+
+git diff -- Show file difference not yet stagged  -- Staged: Planned, oraganized or arranged in advance)
+
+git diff --staged -- Difference between staging and the last file version
+
+git reset -- unstages the file but keeps the changes
+
+git branch <branch_name> -- creates a branch
+
+git checkout <branch_name> -- moves in to the specified branch
+
+git merge <branch> -- combines the specified branch history to current branch
+
+git branch -d <branch_name> -- deletes the branch
+
+git push --upstream -origin --- to push the newly created branch or repo to git hub
+
+git status -- lists all new modified changes to be commited
+
+
+
+CONFIGURING TOOLS
+
+git config --global user.name "username" -- sets the name you want attached to your commit transactions
+
+git cinfig --global user.email "email address" -- sets the email you want attached to your commit changes
+
+REVIEW History
+
+git log -- lists version history for the current branch
+
+git log --gollow <file> -- lists version hostory for a file including renames
+
+git diff <branch_1> <branch_2> -- Shows content difference between two branches
+
+git show <commit> -- outputs metadata and content changes of the specified commit
+
+
+REDO COMMITS
+
+git reset <commit> --undoes all commits after <commit>, preserving changes locally.
+
+git reset --hard <commit> --- discards all history and changes back to the specified commit
+
+SYNCHRONIZE CHANGES
+
+git fetch <bookmark> --- Downloads all history from the repository bookmark
+
+git merge <bookmark>/<branch_name> --- combines bookmarks branch into current local branch
+
+git push <alias> <branch_name> -- uploads all local branch commits to github
+
+git pull --- Downloads bookmarks history and incorporates changes
